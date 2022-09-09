@@ -57,7 +57,7 @@ section {
     border: black 1px solid;
 }
 
-.contactBox {
+.box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,4 +69,9 @@ section {
     height: 40vh;
     font-size: x-large;
     font-weight: 400;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
