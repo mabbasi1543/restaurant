@@ -16,7 +16,7 @@
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _utility__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utility */ \"./src/utility.js\");\n\n\nconst renderContact = (parent) => {\n    (0,_utility__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(parent, \"div\", \"contact\")\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (renderContact);\n\n//# sourceURL=webpack://restaurant/./src/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _utility__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utility */ \"./src/utility.js\");\n\n\nconst renderContact = (parent) => {\n    const box = (0,_utility__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(parent, \"div\", \"\", \"contactBox\")\n    ;(0,_utility__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(box, \"p\", \"contact info:\");\n    (0,_utility__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(box, \"br\");\n    (0,_utility__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(box, \"p\", \"+1 123 123 1234\");\n    (0,_utility__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(box, \"p\", \"contact@test.com\");\n\n\n\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (renderContact);\n\n//# sourceURL=webpack://restaurant/./src/contact.js?");
 
 /***/ }),
 

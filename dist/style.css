@@ -56,3 +56,17 @@ section {
     width: 80vw;
     border: black 1px solid;
 }
+
+.contactBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(87, 87, 87);
+
+    border-radius: 20px;
+    width: 20vw;
+    height: 40vh;
+    font-size: x-large;
+    font-weight: 400;
+}
