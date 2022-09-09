@@ -54,7 +54,7 @@ section {
     justify-content: center;
     align-items: center;
     width: 80vw;
-    border: black 1px solid;
+    padding: 20px;
 }
 
 .box {
@@ -62,8 +62,6 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(87, 87, 87);
-
     border-radius: 20px;
     width: 20vw;
     height: 40vh;
@@ -72,6 +70,27 @@ section {
 }
 
 img {
-    width: 100%;
+    width: 80%;
     height: auto;
+}
+
+
+.boxGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+
+}
+
+.gridEl {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(87, 87, 87);
+
+    border-radius: 20px;
+    font-size: x-large;
+    font-weight: 400;
 }
